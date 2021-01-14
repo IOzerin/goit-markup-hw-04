@@ -348,6 +348,7 @@ header {
 .permanent-customers-list li:hover,
 .permanent-customers-list li:focus {
   border: 1px solid var(--c-accent);
+  cursor: pointer;
 }
 
 .permanent-customers-list li:hover .permanent-customers-icon,
