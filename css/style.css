@@ -104,7 +104,7 @@ header {
 }
 
 .navigation-contacts-list {
-  width: 300px;
+  width: 330px;
   justify-content: space-between;
 }
 
@@ -123,6 +123,11 @@ header {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+}
+
+.navigation-links:hover,
+.navigation-links:focus {
+  color: var(--txt-c-accent);
 }
 
 .navigation-contacts {
@@ -160,7 +165,11 @@ header {
   justify-content: center;
   align-items: center;
   background: var(--c-dark);
-  background-image: url("../images/banner-bg.png");
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../images/banner-bg.png");
   background-size: cover;
   color: var(--c-light);
   padding: 200px 0px;
@@ -367,7 +376,10 @@ footer a {
 
 footer .logo {
   color: var(--txt-c-light);
-  margin-bottom: 20px;
+}
+
+footer address {
+  margin-top: 20px;
 }
 
 footer address a {
