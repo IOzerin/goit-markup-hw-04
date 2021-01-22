@@ -12,45 +12,47 @@
 </head>
 <body>
     <header>
-        <nav>
-            <a href="./index.html" class="logo">
-                <span class="accent">Web</span>Studio
-            </a>
-            <ul class="navigation-links-list">
-                <li>
-                    <a href="./index.html" class="navigation-links">Студия</a>
-                </li>
-                <li>
-                    <a href="./portfolio.html" class="navigation-links accent">Портфолио</a>
-                </li>
-                <li>
-                    <a href="#" class="navigation-links">Контакты</a>
-                </li>
-            </ul>
+        <div class="container">
+            <nav>
+                <a href="./index.html" class="logo">
+                    <span class="accent">Web</span>Studio
+                </a>
+                <ul class="navigation-links-list">
+                    <li>
+                        <a href="./index.html" class="navigation-links">Студия</a>
+                    </li>
+                    <li>
+                        <a href="./portfolio.html" class="navigation-links accent">Портфолио</a>
+                    </li>
+                    <li>
+                        <a href="#" class="navigation-links">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
             <ul class="navigation-contacts-list">
                 <li>
                     <a href="mailto:info@example.com" class="navigation-contacts">
-                        <svg class="permanent-customers-icon">
-                            <use href="./images/contact-icons.svg#email"></use>
+                        <svg width="16">
+                            <use href="./images/all-pages-icons.svg#email"></use>
                         </svg>
                         info@example.com
                     </a>
                 </li>
                 <li>
                     <a href="tel:+380961111111" class="navigation-contacts">
-                        <svg class="permanent-customers-icon">
-                            <use href="./images/contact-icons.svg#phonebook"></use>
+                        <svg width="10">
+                            <use href="./images/all-pages-icons.svg#phonebook"></use>
                         </svg>
                         +38 096 111 11 11
                     </a>
                 </li>
             </ul>
-        </nav>
+        </div>
     </header>
-    <!-- PORTFOLIO -->
     <main>
+        <!-- PORTFOLIO -->
         <section class="portfolio-section">
-            <div class="portfolio-content">
+            <div class="container">
                 <ul class="portfolio-contentbuttons">
                     <li><button type="button" class="portfolio-button">Все</button></li>
                     <li><button type="button" class="portfolio-button">Веб-сайты</button></li>
@@ -62,64 +64,82 @@
                     <li class="project-preview">
                         <a href="#" class="project-preview-links">
                             <img src="./images/portfolio/technokryak.jpg" class="project-preview-picture" alt="Технокряк" width="370">
-                            <h4>Технокряк</h4>
-                            <p>Веб-сайт</p>
+                            <div class="about-project-preview">
+                                <h2>Технокряк</h2>
+                                <p>Веб-сайт</p>
+                            </div>
                         </a>
                     </li>
                     <li class="project-preview">
                         <a href="#" class="project-preview-links">
                             <img src="./images/portfolio/new-orlean-vs-golden-star.jpg" class="project-preview-picture" alt="Постер New Orlean vs Golden Star" width="370">
-                            <h4>Постер New Orlean vs Golden Star</h4>
-                            <p>Дизайн</p>
+                            <div class="about-project-preview">
+                                <h2>Постер New Orlean vs Golden Star</h2>
+                                <p>Дизайн</p>
+                            </div>
                         </a>
                     </li>
                     <li class="project-preview">
                         <a href="#" class="project-preview-links">
                             <img src="./images/portfolio/seafood-restaurant.jpg" class="project-preview-picture" alt="Ресторан Seafood" width="370">
-                            <h4>Ресторан Seafood</h4>
-                            <p>Приложение</p>
+                            <div class="about-project-preview">
+                                <h2>Ресторан Seafood</h2>
+                                <p>Приложение</p>
+                            </div>
                         </a>
                     </li>
                     <li class="project-preview">
                         <a href="#" class="project-preview-links">
                             <img src="./images/portfolio/prime-project.jpg" class="project-preview-picture" alt="Проект Prime" width="370">
-                            <h4>Проект Prime</h4>
-                            <p>Маркетинг</p>
+                            <div class="about-project-preview">
+                                <h2>Проект Prime</h2>
+                                <p>Маркетинг</p>
+                            </div>
                         </a>
                     </li>
                     <li class="project-preview">
                         <a href="#" class="project-preview-links">
                             <img src="./images/portfolio/boxes-project.jpg" class="project-preview-picture" alt="Проект Boxes" width="370">
-                            <h4>Проект Boxes</h4>
-                            <p>Приложение</p>
+                            <div class="about-project-preview">
+                                <h2>Проект Boxes</h2>
+                                <p>Приложение</p>
+                            </div>
                         </a>
                     </li>
                     <li class="project-preview">
                         <a href="#" class="project-preview-links">
                             <img src="./images/portfolio/inspiration-has-no-borders.jpg" class="project-preview-picture" alt="Inspiration has no Borders" width="370">
-                            <h4>Inspiration has no Borders</h4>
-                            <p>Веб-сайт</p>
+                            <div class="about-project-preview">
+                                <h2>Inspiration has no Borders</h2>
+                                <p>Веб-сайт</p>
+                            </div>
                         </a>
                     </li>
                     <li class="project-preview">
                         <a href="#" class="project-preview-links">
                             <img src="./images/portfolio/limited-edition.jpg" class="project-preview-picture" alt="Издание Limited Edition" width="370">
-                            <h4>Издание Limited Edition</h4>
-                            <p>Дизайн</p>
+                            <div class="about-project-preview">
+                                <h2>Издание Limited Edition</h2>
+                                <p>Дизайн</p>
+                            </div>
                         </a>
                     </li>
                     <li class="project-preview">
                         <a href="#" class="project-preview-links">
                             <img src="./images/portfolio/lab-project.jpg" class="project-preview-picture" alt="Проект LAB" width="370">
-                            <h4>Проект LAB</h4>
-                            <p>Маркетинг</p>
+                            <div class="about-project-preview">
+                                <h2>Проект LAB</h2>
+                                <p>Маркетинг</p>
+                            </div>
                         </a>
                     </li>
                     <li class="project-preview">
                         <a href="#" class="project-preview-links">
                             <img src="./images/portfolio/growing-business.jpg" class="project-preview-picture" alt="Growing Business" width="370">
-                            <h4>Growing Business</h4>
-                            <p>Приложение</p>
+                            <div class="about-project-preview">
+                                <h2>Growing Business</h2>
+                                <p>Приложение</p>
+                            </div>
                         </a>
                     </li>
                 </ul>
@@ -128,7 +148,7 @@
         <!-- /PORTFOLIO -->
     </main>
     <footer>
-        <div class="footer-content">
+        <div class="container">
             <div class="footer-address-container">
                 <a href="./index.html" class="logo">
                     <span class="accent">Web</span>Studio
@@ -148,12 +168,33 @@
             <div class="footer-social-container">
                 <h6>Присоединяйтесь</h6>
                 <ul class="footer-social">
-                    <li><a href="https://www.instagram.com/" class="footer-social-link"><i class="fab fa-instagram"></i></a>
+                    <li>
+                        <a href="https://www.instagram.com/" class="footer-social-link">
+                            <svg width="20">
+                                <use href="./images/all-pages-icons.svg#instagram"></use>
+                            </svg>
+                        </a>
                     </li>
-                    <li><a href="https://twitter.com/" class="footer-social-link"><i class="fab fa-twitter"></i></a></li>
-                    <li><a href="https://facebook.com/" class="footer-social-link"><i class="fab fa-facebook-f"></i></a></i>
+                    <li>
+                        <a href="https://twitter.com/" class="footer-social-link">
+                            <svg width="20">
+                                <use href="./images/all-pages-icons.svg#twitter"></use>
+                            </svg>
+                        </a>
                     </li>
-                    <li><a href="https://linkedin.com/" class="footer-social-link"><i class="fab fa-linkedin-in"></i></a>
+                    <li>
+                        <a href="https://facebook.com/" class="footer-social-link">
+                            <svg width="20">
+                                <use href="./images/all-pages-icons.svg#facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://linkedin.com/" class="footer-social-link">
+                            <svg width="20">
+                                <use href="./images/all-pages-icons.svg#linkedin"></use>
+                            </svg>
+                        </a>
                     </li>
                 </ul>
             </div>
