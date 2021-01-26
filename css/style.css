@@ -24,9 +24,9 @@ body {
 
 .container {
   width: 1200px;
-  padding: 94px 15px;
-  box-sizing: border-box;
+  padding: 0 15px;
   margin: 0 auto;
+  box-sizing: border-box;
 }
 
 nav {
@@ -68,21 +68,14 @@ h2 {
   margin: 0 0 50px 0;
 }
 
-h4 {
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-}
-
-h5 {
+h3 {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
 
-h6 {
+.h3-small {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -97,10 +90,10 @@ header {
   display: flex;
   justify-content: center;
   box-sizing: border-box;
+  padding: 25px 0;
 }
 
 header .container {
-  padding: 25px 15px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -210,8 +203,13 @@ header .container {
 /* --- /BANNER --- */
 
 /* --- OUR FEATURES --- */
+.our-features-section {
+  padding: 96px 0;
+}
+
 .our-features-list {
   justify-content: space-between;
+  margin: 0;
 }
 
 .our-features {
@@ -229,6 +227,10 @@ header .container {
   margin-bottom: 30px;
 }
 
+.our-features-img-wrapper svg {
+  height: 100px;
+}
+
 .our-features p {
   font-size: 14px;
   line-height: 1.71;
@@ -239,6 +241,10 @@ header .container {
 /* --- /OUR FEATURES --- */
 
 /* --- WHAT ARE WE DO --- */
+.what-are-we-do-section {
+  padding-bottom: 96px;
+}
+
 .what-are-we-do-section .container {
   text-align: center;
   padding-top: 0;
@@ -254,6 +260,7 @@ header .container {
 .our-team-section {
   text-align: center;
   background: var(--c-grey);
+  padding: 96px 0;
 }
 
 .team-members {
@@ -322,6 +329,7 @@ header .container {
 /* --- PERMANENT CUSTOMERS --- */
 .permanent-customers-section {
   text-align: center;
+  padding: 96px 0;
 }
 
 .permanent-customers-list {
@@ -379,6 +387,7 @@ footer {
 footer .container {
   display: flex;
   padding: 60px 15px;
+  align-items: baseline;
 }
 
 footer a {
@@ -424,7 +433,7 @@ footer address a {
   display: flex;
   flex-direction: column;
   color: var(--txt-c-light);
-  margin: 12px 0 0 70px;
+  margin: 0 0 0 70px;
 }
 
 .footer-social-link {
@@ -451,12 +460,11 @@ footer address a {
 /* --- PORTFOLIO --- */
 .portfolio-section {
   background: var(--c-light);
+  padding: 94px 0;
 }
 
 .portfolio-button {
   background: var(--c-grey);
-  width: 128px;
-  height: 38px;
   border: none;
   border-radius: 4px;
   color: var(--txt-c-dark);
@@ -466,6 +474,7 @@ footer address a {
   letter-spacing: 0.03em;
   cursor: pointer;
   margin-right: 8px;
+  padding: 6px 22px;
 }
 
 .portfolio-button:focus,
@@ -485,12 +494,16 @@ footer address a {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin: 0;
 }
 
 .project-preview {
   width: 370px;
   background: var(--c-light);
   border: 1px solid #eeeeee;
+}
+
+.project-preview:not(:nth-last-child(-n + 3)) {
   margin-bottom: 30px;
 }
 
