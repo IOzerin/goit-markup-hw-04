@@ -283,7 +283,7 @@ header .container {
   padding: 30px 32px;
 }
 
-.team-member h5 {
+.team-member h3 {
   margin: 0 0 10px 0;
 }
 
@@ -497,7 +497,7 @@ footer address a {
 }
 
 .project-preview {
-  width: 370px;
+  /* width: 370px; */
   background: var(--c-light);
   border: 1px solid #eeeeee;
 }
